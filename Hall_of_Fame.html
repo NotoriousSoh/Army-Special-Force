@@ -203,7 +203,22 @@
     margin: 0;
     color: #ccc;
   }
+  .clip-text {
+  font-weight: 800;
+  font-size: clamp(2rem, 8vw, 6rem);
+  line-height: 1;
+  /* the background MUST be on this element */
+  background: url("image/HALLOFFAMEPIC.png") center / cover no-repeat;
 
+  /* required for the effect */
+  -webkit-background-clip: text; /* Chrome/Safari */
+  background-clip: text;          /* future/other */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  /* helps the background render correctly */
+  display: inline-block;
+}
 
 
     
