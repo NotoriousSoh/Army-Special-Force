@@ -207,16 +207,15 @@
   font-weight: 800;
   font-size: clamp(2rem, 8vw, 6rem);
   line-height: 1;
-  /* the background MUST be on this element */
+
   background: url("image/HALLOFFAMEPIC.png") center / cover no-repeat;
 
-  /* required for the effect */
-  -webkit-background-clip: text; /* Chrome/Safari */
-  background-clip: text;          /* future/other */
+
+  -webkit-background-clip: text; 
+  background-clip: text;      
   -webkit-text-fill-color: transparent;
   color: transparent;
 
-  /* helps the background render correctly */
   display: inline-block;
 }
 
@@ -227,8 +226,6 @@
   document.addEventListener("scroll", function () {
     const hero = document.querySelector(".hero-section");
     const scrollY = window.scrollY;
-
-    // Calculate scale based on scroll distance
     let scale = 100 + Math.min(scrollY / 10, 10); 
     hero.style.backgroundSize = `${scale}% auto`;
   });
