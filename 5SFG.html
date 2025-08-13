@@ -8,22 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <style>
         html {
-      scrollbar-width: none; /* Firefox */
+      scrollbar-width: none; 
     }
     body {
       background: url('your-background.jpg') no-repeat center center fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
-      background-color: #800000; /* Light grey */
+      background-color: #800000; 
       overflow-x: hidden;
        overflow: scroll;
-       scrollbar-width: none; /* Firefox */
-       -ms-overflow-style: none; /* Internet Explorer and Edge */
+       scrollbar-width: none; 
+       -ms-overflow-style: none; 
        color: #fff;
     }
     body::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Opera */
+      display: none; 
     }
 
         .sidebar-toggle-btn {
@@ -41,7 +41,7 @@
     .black-section {
   background-color: black;
   padding: 2rem 0;
-  width: 1300px; /* Full viewport width */
+  width: 1300px; 
   margin-left: auto;
   margin-right: auto;
       color: white;
@@ -50,9 +50,9 @@
 }
 .black-section-small {
   background-color: black;
-  padding: 1.5rem 0;  /* Inner spacing */
-  width: 1100px;      /* Smaller than main section */
-  margin: 0 auto 3rem auto; /* Center + space below */
+  padding: 1.5rem 0; 
+  width: 1100px;     
+  margin: 0 auto 3rem auto; 
   color: white;
   padding: 15px;
   border-radius: 10px;
@@ -81,7 +81,7 @@
     transition: background-size 0.2s ease-out;
   }
 
-  /* Optional: for smoother scaling feeling */
+
   .hero-section.shrink {
     background-size: 110%;
   }
@@ -113,22 +113,22 @@
   left: 0;
   right: 0;
   padding: 1.5rem;
-  background: rgba(0, 0, 0, 0.5); /* dark transparent overlay */
+  background: rgba(0, 0, 0, 0.5); 
   color: white;
 }
-    /* Wrapper adds space around the entire featurette */
+  
     .featurette-wrapper {
       padding: 50px 15px;
     }
 
-/* Background box styling */
+
     .featurette-box {
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
       padding: 30px;
       color: white;
     }
-/* Text styles */
+
     .featurette-heading {
       font-size: 3rem;
     }
@@ -144,7 +144,7 @@
   margin-top: 15px;
 }
 
-/* Image styles */
+
     .featurette-image {
       width: 300px;
       height: 300px;
@@ -160,7 +160,7 @@
 
   .section-description {
     max-width: 800px;
-    margin: 0 auto 2rem auto; /* Centers the text and adds spacing */
+    margin: 0 auto 2rem auto; 
     line-height: 1.5;
   }
 
@@ -205,7 +205,7 @@
     color: #ccc;
   }
       .black-section1 {
-  padding-top: 1rem; /* Adds space above the content */
+  padding-top: 1rem; 
     color: white;
   text-align: center;
   margin-bottom: 0.5rem;
@@ -222,7 +222,7 @@
     const hero = document.querySelector(".hero-section");
     const scrollY = window.scrollY;
 
-    // Calculate scale based on scroll distance
+
     let scale = 100 + Math.min(scrollY / 10, 10); 
     hero.style.backgroundSize = `${scale}% auto`;
   });
@@ -235,11 +235,11 @@
     ☰
   </button>
 
-  <!-- Offcanvas Sidebar -->
+
 <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
   <div class="offcanvas-header flex-column align-items-start">
     <img src="image/ASF.webp" alt="ASF Logo" width="60" height="50" class="mb-2">
-    <h5 class="offcanvas-title" id="sidebarMenuLabel">United State Army Special Forces</h5>
+    <h5 class="offcanvas-title" id="sidebarMenuLabel">United States Army Special Forces</h5>
     <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
 
@@ -249,10 +249,10 @@
         <li class="nav-item mb-2 dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Group</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="5SFG.html">5th Special Force Group</a></li>
-            <li><a class="dropdown-item" href="1SFG.html">1st Special Force Group</a></li>
-            <li><a class="dropdown-item" href="10SFG.html">10th Special Force Group</a></li>
-            <li><a class="dropdown-item" href="DF.html">Designated Fighter</a></li>
+            <li><a class="dropdown-item" href="5SFG.html">5th Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="1SFG.html">1st Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="10SFG.html">10th Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="DF.html">Designated Fighters</a></li>
           </ul>
         </li>
         <li class="nav-item mb-2"><a class="nav-link text-white" href="Hall_of_Fame.html">Hall Of Fame</a></li>
@@ -267,22 +267,22 @@
       </ul>
     </div>
   </div>
-  <!-- Hero Section with Background Image and Text -->
+
 <section class="hero-section text-white d-flex align-items-center">
   <div class="container text-center">
-    <h1 class="display-4 fw-bold">5th Special Force Group</h1>
+    <h1 class="display-4 fw-bold">5th Special Forces Group</h1>
   </div>
 </section>
 
 <div class="container featurette-wrapper">
   <div class="row featurette-box align-items-center">
-    <!-- Text -->
+
     <div class="col-md-7">
       <h2 class="featurette-heading"></h2>
-      <h3 class="lead">The 5th Special Forces Group is a highly specialized unit within the ASF, composed of two elite companies: Echo and Delta. Echo Company is renowned for its expertise in war games, demonstrating exceptional strategic acumen and operational effectiveness in large-scale simulated combat scenarios. Delta Company is dedicated to Military Simulation (MILSIM), focusing on realism, discipline, and immersive tactical operations that mirror real-world military engagements. Both companies uphold the highest standards of professionalism and combat readiness.</h3>
+      <h3 class="lead"> The 5th Special Forces Group serves as the highly specialized unit within Army Special Forces, structured into two elite companies: Echo and Delta. Echo Company is renown for its specialization in Wargames, demonstrating exceptional strategic, tactical, and operational effectiveness in large-scale combat scenarios. Delta Company is dedicated to Military Simulation (MILSIM), focusing on realism, breaching, and immersive tactical operations which mirror real-world military special operations.</h3>
     </div>
 
-    <!-- Image -->
+
     <div class="col-md-5 text-center">
       <img src="image/5SFG.png" class="featurette-image" alt="Feature Image">
     </div>
@@ -290,12 +290,12 @@
 </div>
 
 <div class="container py-5 featurette-wrapper">
-  <!-- Heading above all images -->
+
 <section class="black-section">
-  <h1 class="section-title1 black-section1">Group Command Of 5th Special Force Group</h1>
+  <h1 class="section-title1 black-section1">Group Command Of 5th Special Forces Group</h1>
 </section>
   <div class="black-section row g-4">
-    <!-- Card 1 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/5GCO.webp" alt="Portrait 1">
@@ -306,7 +306,7 @@
       </div>
     </div>
 
-    <!-- Card 2 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/5GXO.webp" alt="Portrait 2">
@@ -317,7 +317,7 @@
       </div>
     </div>
 
-    <!-- Card 3 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/5GSM.webp" alt="Portrait 3">
@@ -338,7 +338,7 @@
       Delta Company is the ASF’s premier Military Simulation (MILSIM) unit, specializing in realistic, highly disciplined operations that replicate real-world military tactics, procedures, and mission profiles. The company is organized into two elite detachments: Operational Detachment Alpha (ODA) 5141 and Operational Detachment Alpha (ODA) 5142. Both detachments operate with precision, professionalism, and an unwavering commitment to authenticity, conducting complex simulated missions that demand coordination, adaptability, and tactical expertise. Delta Company stands as the benchmark for MILSIM excellence within the ASF.
     </p>
     <div class="row g-4 justify-content-center">
-      <!-- Card 1 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/5CCO.webp" alt="Company Commanding Officer" class="img-fluid">
@@ -348,7 +348,7 @@
           </div>
         </div>
       </div>
-      <!-- Card 2 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/ROBLoX.jpg" alt="Company Executive Officer" class="img-fluid">
@@ -358,7 +358,7 @@
           </div>
         </div>
       </div>
-      <!-- Card 3 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/5CFS.webp" alt="Company First Sergeant" class="img-fluid">
@@ -382,7 +382,7 @@
 Echo Company is the ASF’s elite war gaming unit, renowned for its mastery of large-scale simulated combat and strategic operations. The company is composed of two highly skilled detachments: Operational Detachment Alpha (ODA) 5151 and Operational Detachment Alpha (ODA) 5152. These detachments excel in executing complex battle plans, coordinating multi-unit maneuvers, and adapting to dynamic combat scenarios with precision and efficiency. Through relentless training and tactical innovation, Echo Company maintains its position as a dominant force in ASF war gaming operations.
     </p>
     <div class="row g-4 justify-content-center">
-      <!-- Card 1 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/5CCO1.webp" alt="Company Commanding Officer" class="img-fluid">
@@ -392,7 +392,7 @@ Echo Company is the ASF’s elite war gaming unit, renowned for its mastery of l
           </div>
         </div>
       </div>
-      <!-- Card 2 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/5CXO1.webp" alt="Company Executive Officer" class="img-fluid">
@@ -402,7 +402,7 @@ Echo Company is the ASF’s elite war gaming unit, renowned for its mastery of l
           </div>
         </div>
       </div>
-      <!-- Card 3 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/5CFS1.webp" alt="Company First Sergeant" class="img-fluid">

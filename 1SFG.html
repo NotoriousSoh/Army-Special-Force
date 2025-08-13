@@ -8,22 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <style>
         html {
-      scrollbar-width: none; /* Firefox */
+      scrollbar-width: none; 
     }
     body {
       background: url('your-background.jpg') no-repeat center center fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
-      background-color: #0f0f0f; /* Light grey */
+      background-color: #0f0f0f; 
       overflow-x: hidden;
        overflow: scroll;
-       scrollbar-width: none; /* Firefox */
-       -ms-overflow-style: none; /* Internet Explorer and Edge */
+       scrollbar-width: none;
+       -ms-overflow-style: none; 
        color: #fff;
     }
     body::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Opera */
+      display: none;
     }
 
         .sidebar-toggle-btn {
@@ -41,7 +41,7 @@
     .black-section {
   background-color: black;
   padding: 2rem 0;
-  width: 1300px; /* Full viewport width */
+  width: 1300px; 
   margin-left: auto;
   margin-right: auto;
       color: white;
@@ -50,9 +50,9 @@
 }
 .black-section-small {
   background-color: black;
-  padding: 1.5rem 0;  /* Inner spacing */
-  width: 1100px;      /* Smaller than main section */
-  margin: 0 auto 3rem auto; /* Center + space below */
+  padding: 1.5rem 0; 
+  width: 1100px;      
+  margin: 0 auto 3rem auto; 
   color: white;
   padding: 15px;
   border-radius: 10px;
@@ -81,7 +81,7 @@
     transition: background-size 0.2s ease-out;
   }
 
-  /* Optional: for smoother scaling feeling */
+
   .hero-section.shrink {
     background-size: 110%;
   }
@@ -113,22 +113,22 @@
   left: 0;
   right: 0;
   padding: 1.5rem;
-  background: rgba(0, 0, 0, 0.5); /* dark transparent overlay */
+  background: rgba(0, 0, 0, 0.5); 
   color: white;
 }
-    /* Wrapper adds space around the entire featurette */
+ 
     .featurette-wrapper {
       padding: 50px 15px;
     }
 
-/* Background box styling */
+
     .featurette-box {
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
       padding: 30px;
       color: white;
     }
-/* Text styles */
+
     .featurette-heading {
       font-size: 3rem;
     }
@@ -160,7 +160,7 @@
 
   .section-description {
     max-width: 800px;
-    margin: 0 auto 2rem auto; /* Centers the text and adds spacing */
+    margin: 0 auto 2rem auto; 
     line-height: 1.5;
   }
 
@@ -206,7 +206,7 @@
   }
 
   .black-section1 {
-  padding-top: 1rem; /* Adds space above the content */
+  padding-top: 1rem; 
     color: white;
   text-align: center;
   margin-bottom: 0.5rem;
@@ -223,7 +223,7 @@
     const hero = document.querySelector(".hero-section");
     const scrollY = window.scrollY;
 
-    // Calculate scale based on scroll distance
+
     let scale = 100 + Math.min(scrollY / 10, 10); 
     hero.style.backgroundSize = `${scale}% auto`;
   });
@@ -236,11 +236,11 @@
     ☰
   </button>
 
-  <!-- Offcanvas Sidebar -->
+
 <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
   <div class="offcanvas-header flex-column align-items-start">
     <img src="image/ASF.webp" alt="ASF Logo" width="60" height="50" class="mb-2">
-    <h5 class="offcanvas-title" id="sidebarMenuLabel">United State Army Special Forces</h5>
+    <h5 class="offcanvas-title" id="sidebarMenuLabel">United States Army Special Forces</h5>
     <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
 
@@ -250,10 +250,10 @@
         <li class="nav-item mb-2 dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Group</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="5SFG.html">5th Special Force Group</a></li>
-            <li><a class="dropdown-item" href="1SFG.html">1st Special Force Group</a></li>
-            <li><a class="dropdown-item" href="10SFG.html">10th Special Force Group</a></li>
-            <li><a class="dropdown-item" href="DF.html">Designated Fighter</a></li>
+            <li><a class="dropdown-item" href="5SFG.html">5th Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="1SFG.html">1st Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="10SFG.html">10th Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="DF.html">Designated Fighters</a></li>
           </ul>
         </li>
         <li class="nav-item mb-2"><a class="nav-link text-white" href="Hall_of_Fame.html">Hall Of Fame</a></li>
@@ -268,22 +268,22 @@
       </ul>
     </div>
   </div>
-  <!-- Hero Section with Background Image and Text -->
+
 <section class="hero-section text-white d-flex align-items-center">
   <div class="container text-center">
-    <h1 class="display-4 fw-bold">1st Special Force Group</h1>
+    <h1 class="display-4 fw-bold">1st Special Forces Group</h1>
   </div>
 </section>
 
 <div class="container featurette-wrapper">
   <div class="row featurette-box align-items-center">
-    <!-- Text -->
+
     <div class="col-md-7">
       <h2 class="featurette-heading"></h2>
-      <h3 class="lead">The 1st Special Forces Group serves as the primary combat element of the ASF, structured into two specialized companies: Alpha and Bravo. Alpha Company is tasked with operations centered on First Person Shooter platforms, including titles such as Tournament Grounds and Raid Grounds, where precision, speed, and tactical execution are paramount. Bravo Company, on the other hand, also handle First Person Shooter, aiding Alpha Company.</h3>
+      <h3 class="lead">The 1st Special Forces Group serves as the primary combative force of Army Special Forces, structured into two specialized companies: Alpha and Bravo. Alpha Company is the more elite company, tasked with operations centered towards First Person Shooters, participating in Scrimmages (Tournament Grounds) and Raids (Raid Grounds), where the precision, speed, and combative abilities of all operatives are crucial. Bravo Company on the other hand, also handles First Person Shooters, aiding and supporting Alpha Company.</h3>
     </div>
 
-    <!-- Image -->
+
     <div class="col-md-5 text-center">
       <img src="image/1SFG.webp" class="featurette-image" alt="Feature Image">
     </div>
@@ -291,12 +291,12 @@
 </div>
 
 <div class="container py-5 featurette-wrapper">
-  <!-- Heading above all images -->
+
 <section class="black-section">
-  <h1 class="section-title1 black-section1">Group Command Of 1st Special Force Group</h1>
+  <h1 class="section-title1 black-section1">Group Command Of 1st Special Forces Group</h1>
 </section>
   <div class="black-section row g-4">
-    <!-- Card 1 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/1GCO.webp" alt="Portrait 1">
@@ -307,7 +307,7 @@
       </div>
     </div>
 
-    <!-- Card 2 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/1GXO.webp" alt="Portrait 2">
@@ -318,7 +318,7 @@
       </div>
     </div>
 
-    <!-- Card 3 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/ROBLoX.jpg" alt="Portrait 3">
@@ -339,17 +339,17 @@
       Alpha Company is the ASF’s elite First-Person Shooter (FPS) unit, specializing in high-intensity engagements such as competitive scrimmages and precision raids. Known for their speed, accuracy, and tactical cohesion, Alpha Company consistently operates at the highest levels of performance. The company’s operations are spearheaded by Operational Detachment Alpha (ODA) 1111, a team of highly trained specialists capable of executing fast-paced, coordinated strikes in any virtual battlespace. Alpha Company stands at the forefront of ASF’s FPS dominance.
     </p>
     <div class="row g-4 justify-content-center">
-      <!-- Card 1 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CCO.webp" alt="Company Commanding Officer" class="img-fluid">
           <div class="image-overlay">
             <h2>Company Commanding Officer</h2>
-            <p>Major, acurlocatmanl</p>
+            <p>Major, jewshoota</p>
           </div>
         </div>
       </div>
-      <!-- Card 2 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CXO.webp" alt="Company Executive Officer" class="img-fluid">
@@ -359,7 +359,7 @@
           </div>
         </div>
       </div>
-      <!-- Card 3 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CFS.webp" alt="Company First Sergeant" class="img-fluid">
@@ -383,7 +383,7 @@
 Bravo Company is a highly skilled First-Person Shooter (FPS) unit within the ASF, focused on competitive scrimmages and coordinated raid operations. While slightly less elite than Alpha Company, Bravo maintains a strong reputation for tactical proficiency, teamwork, and consistent performance in the field. The company is led by Operational Detachment Bravo (ODB) 1121, a dedicated team trained to execute precise and effective missions alongside their Alpha counterparts. Bravo Company plays a critical role in maintaining the ASF’s operational readiness and combat capability.
     </p>
     <div class="row g-4 justify-content-center">
-      <!-- Card 1 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CCO1.webp" alt="Company Commanding Officer" class="img-fluid">
@@ -393,7 +393,7 @@ Bravo Company is a highly skilled First-Person Shooter (FPS) unit within the ASF
           </div>
         </div>
       </div>
-      <!-- Card 2 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CXO1.webp" alt="Company Executive Officer" class="img-fluid">
@@ -403,7 +403,7 @@ Bravo Company is a highly skilled First-Person Shooter (FPS) unit within the ASF
           </div>
         </div>
       </div>
-      <!-- Card 3 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CFS1.webp" alt="Company First Sergeant" class="img-fluid">

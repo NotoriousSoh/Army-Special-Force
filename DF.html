@@ -8,22 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <style>
         html {
-      scrollbar-width: none; /* Firefox */
+      scrollbar-width: none;
     }
     body {
       background: url('your-background.jpg') no-repeat center center fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
-      background-color: #121d33; /* Light grey */
+      background-color: #121d33;
       overflow-x: hidden;
        overflow: scroll;
-       scrollbar-width: none; /* Firefox */
-       -ms-overflow-style: none; /* Internet Explorer and Edge */
+       scrollbar-width: none; 
+       -ms-overflow-style: none; 
        color: #fff;
     }
     body::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Opera */
+      display: none; 
     }
 
         .sidebar-toggle-btn {
@@ -41,7 +41,7 @@
     .black-section {
   background-color: black;
   padding: 2rem 0;
-  width: 1300px; /* Full viewport width */
+  width: 1300px; 
   margin-left: auto;
   margin-right: auto;
       color: white;
@@ -50,9 +50,9 @@
 }
 .black-section-small {
   background-color: black;
-  padding: 1.5rem 0;  /* Inner spacing */
-  width: 1100px;      /* Smaller than main section */
-  margin: 0 auto 3rem auto; /* Center + space below */
+  padding: 1.5rem 0;  
+  width: 1100px;
+  margin: 0 auto 3rem auto; 
   color: white;
   padding: 15px;
   border-radius: 10px;
@@ -81,7 +81,7 @@
     transition: background-size 0.2s ease-out;
   }
 
-  /* Optional: for smoother scaling feeling */
+
   .hero-section.shrink {
     background-size: 110%;
   }
@@ -113,23 +113,23 @@
   left: 0;
   right: 0;
   padding: 1.5rem;
-  background: rgba(0, 0, 0, 0.5); /* dark transparent overlay */
+  background: rgba(0, 0, 0, 0.5); 
   color: white;
 }
 
-    /* Wrapper adds space around the entire featurette */
+
     .featurette-wrapper {
       padding: 50px 15px;
     }
 
-/* Background box styling */
+
     .featurette-box {
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
       padding: 30px;
       color: white;
     }
-/* Text styles */
+
     .featurette-heading {
       font-size: 3rem;
     }
@@ -145,7 +145,7 @@
   margin-top: 15px;
 }
 
-/* Image styles */
+
     .featurette-image {
       width: 300px;
       height: 300px;
@@ -161,7 +161,7 @@
 
   .section-description {
     max-width: 800px;
-    margin: 0 auto 2rem auto; /* Centers the text and adds spacing */
+    margin: 0 auto 2rem auto; 
     line-height: 1.5;
   }
 
@@ -206,7 +206,7 @@
     color: #ccc;
   }
     .black-section1 {
-  padding-top: 1rem; /* Adds space above the content */
+  padding-top: 1rem; 
     color: white;
   text-align: center;
   margin-bottom: 0.5rem;
@@ -221,8 +221,6 @@
   document.addEventListener("scroll", function () {
     const hero = document.querySelector(".hero-section");
     const scrollY = window.scrollY;
-
-    // Calculate scale based on scroll distance
     let scale = 100 + Math.min(scrollY / 10, 10); 
     hero.style.backgroundSize = `${scale}% auto`;
   });
@@ -235,11 +233,11 @@
     ☰
   </button>
 
-  <!-- Offcanvas Sidebar -->
+
 <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
   <div class="offcanvas-header flex-column align-items-start">
     <img src="image/ASF.webp" alt="ASF Logo" width="60" height="50" class="mb-2">
-    <h5 class="offcanvas-title" id="sidebarMenuLabel">United State Army Special Forces</h5>
+    <h5 class="offcanvas-title" id="sidebarMenuLabel">United States Army Special Forces</h5>
     <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
 
@@ -249,9 +247,9 @@
         <li class="nav-item mb-2 dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Group</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="5SFG.html">5th Special Force Group</a></li>
-            <li><a class="dropdown-item" href="1SFG.html">1st Special Force Group</a></li>
-            <li><a class="dropdown-item" href="10SFG.html">10th Special Force Group</a></li>
+            <li><a class="dropdown-item" href="5SFG.html">5th Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="1SFG.html">1st Special Forces Group</a></li>
+            <li><a class="dropdown-item" href="10SFG.html">10th Special Forces Group</a></li>
             <li><a class="dropdown-item" href="DF.html">Designated Fighter</a></li>
           </ul>
         </li>
@@ -267,22 +265,21 @@
       </ul>
     </div>
   </div>
-  <!-- Hero Section with Background Image and Text -->
+
 <section class="hero-section text-white d-flex align-items-center">
   <div class="container text-center">
-    <h1 class="display-4 fw-bold">Designated Fighter</h1>
+    <h1 class="display-4 fw-bold">Designated Fighters</h1>
   </div>
 </section>
 
 <div class="container featurette-wrapper">
   <div class="row featurette-box align-items-center">
-    <!-- Text -->
+
     <div class="col-md-7">
       <h2 class="featurette-heading"></h2>
-      <h3 class="lead">Designated Fighter represents the elite of the elite within the ASF, composed of the most skilled and battle-hardened operators across all units. This premier force is divided into two highly specialized teams: Noble and Omega. Noble Team excels in First-Person Shooter operations, demonstrating unmatched precision, reflexes, and combat effectiveness in high-intensity engagements. Omega Team leads the forefront of war games, showcasing superior tactical awareness, coordination, and strategic dominance. As ASF’s most formidable fighting force, Designated Fighter sets the standard for excellence.</h3>
+      <h3 class="lead">Designated Fighter represents the best of the best within Army Special Forces, composed of the most skilled and battle-hardened operators across all units. This premier force is divided into two highly specialized teams: Noble and Omega. Noble Team excels in First-Person Shooters, participating in Scrimmages (Tournament Grounds) and Raids (Raid Grounds), where the precision, speed, and combative abilities of all operatives are crucial in high pressure and intensity engagements. Omega Team leads the forefront in Wargames, showcasing superior tactical awareness, coordination, and strategic dominance. As Army Special Force's most formidable fighting force, Designated Fighter sets the standards for combative excellence.</h3>
     </div>
 
-    <!-- Image -->
     <div class="col-md-5 text-center">
       <img src="image/DF.webp" class="featurette-image" alt="Feature Image">
     </div>
@@ -290,23 +287,23 @@
 </div>
 
 <div class="container py-5 featurette-wrapper">
-  <!-- Heading above all images -->
+
 <section class="black-section">
-  <h1 class="section-title1 black-section1">Command Of Designated Fighter</h1>
+  <h1 class="section-title1 black-section1">Command Of Designated Fighters</h1>
 </section>
   <div class="black-section row g-4 justify-content-center">
-    <!-- Card 1 -->
+
     <div class="col-md-4">
       <div class="image-card">
-        <img src="image/ROBLoX.jpg" alt="Portrait 1">
+        <img src="image/1CCO.webp" alt="Portrait 1">
         <div class="image-overlay">
           <h2>Commanding Officer of DF</h2>
-          <p>Vacant</p>
+          <p>jewshoota</p>
         </div>
       </div>
     </div>
 
-    <!-- Card 2 -->
+
     <div class="col-md-4">
       <div class="image-card">
         <img src="image/5CCO1.webp" alt="Portrait 2">
@@ -327,7 +324,7 @@
       Noble Team stands as the elite of the elite within the ASF, surpassing even Alpha Company in skill, precision, and combat effectiveness. Specializing in First-Person Shooter operations, Noble Team dominates the battlefield through unmatched reflexes, tactical mastery, and seamless coordination. The team is divided into two top-tier detachments: The Big Dawgs (operating in the Eastern Standard Time zone) and Asian Squad (operating in the Australian Eastern Standard Time zone). Together, they set the gold standard for FPS excellence across all ASF units.
     </p>
     <div class="row g-4 justify-content-center">
-      <!-- Card 1 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CCO.webp" alt="Company Commanding Officer" class="img-fluid">
@@ -337,7 +334,7 @@
           </div>
         </div>
       </div>
-      <!-- Card 2 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CXO.webp" alt="Company Executive Officer" class="img-fluid">
@@ -361,7 +358,7 @@
 Omega Team is the ASF’s undisputed master of war games, recognized as the best of the best in large-scale simulated combat operations. With unparalleled strategic vision, flawless coordination, and exceptional adaptability, Omega Team dominates every scenario they enter. Operating without detachments, this elite unit functions as a single, highly cohesive force, ensuring maximum efficiency and precision in every mission. Omega Team embodies the pinnacle of ASF’s war gaming capability. 
     </p>
     <div class="row g-4 justify-content-center">
-      <!-- Card 1 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/5CXO1.webp" alt="Company Commanding Officer" class="img-fluid">
@@ -371,7 +368,7 @@ Omega Team is the ASF’s undisputed master of war games, recognized as the best
           </div>
         </div>
       </div>
-      <!-- Card 2 -->
+
       <div class="col-md-4">
         <div class="image-card">
           <img src="image/1CFS1.webp" alt="Company Executive Officer" class="img-fluid">
