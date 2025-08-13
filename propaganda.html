@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wide Image Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0d0d0d, #1c1c1c, #2a2a2a);
+      color: white;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+    }
+
+    .gallery-container {
+      padding: 60px 15px;
+    }
+
+    .image-card {
+      position: relative;
+      overflow: hidden;
+      height: 300px; /* perfect for wide landscape */
+      border-radius: 15px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+      background-color: black;
+    }
+
+    .image-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .image-card:hover img {
+      transform: scale(1.05);
+    }
+
+    /* Nice subtle overlay for text on images */
+    .image-overlay {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      text-align: center;
+    }
+
+    .image-overlay h2 {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .image-overlay p {
+      font-size: 0.9rem;
+      margin: 0;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container gallery-container">
+    <div class="row g-4 justify-content-center">
+      <!-- Image 1 -->
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 1" />
+          <div class="image-overlay">
+            <h2>Title 1</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 2" />
+          <div class="image-overlay">
+            <h2>Title 2</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 3" />
+          <div class="image-overlay">
+            <h2>Title 3</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 3" />
+          <div class="image-overlay">
+            <h2>Title 3</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 3" />
+          <div class="image-overlay">
+            <h2>Title 3</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 3" />
+          <div class="image-overlay">
+            <h2>Title 3</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-md-8 col-lg-6">
+        <div class="image-card">
+          <img src="https://via.placeholder.com/1000x300" alt="Wide Image 3" />
+          <div class="image-overlay">
+            <h2>Title 3</h2>
+            <p>Description text here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
