@@ -51,26 +51,40 @@
     .color-block {
       flex: 1;
     }
-    .carousel {
-      position: relative;
-      z-index: 1;
-    }
+.carousel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh; 
+}
 
-    .carousel-item {
-      height: 730px;
-    }
+.carousel-item {
+  height: 100vh; 
+}
 
-    .carousel-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
 
-    .carousel-caption {
-      background: rgba(0, 0, 0, 0.5);
-      padding: 1rem;
-      border-radius: 0.5rem;
-    }
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial; /* remove default Bootstrap bottom positioning */
+}
+
+.carousel-caption h1 {
+  font-size: clamp(1.8rem, 5vw, 5rem); /* min, preferred, max */
+}
+
+.carousel-caption h4,
+.carousel-caption p {
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+}
 
     .sidebar-toggle-btn {
       position: fixed;
